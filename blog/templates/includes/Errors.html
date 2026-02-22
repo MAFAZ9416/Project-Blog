@@ -1,0 +1,31 @@
+<!-- Form Failed Error's -->
+
+{% for field in form %}
+    {% for error in field.errors %}
+        <div class="col-12">
+            <span class = "fw-bold"> {{ field.label }}</span>
+            {% for error in field.errors %}
+                <span class = 'text-danger'>{{ error }}</span>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endfor %}
+
+<!-- Non Field Erroes -->
+
+    {% for error in form.non_field_errors %}
+        <div class="col-12">
+            <span class = 'text-danger'>{{ error }}</span>
+        </div>
+    {% endfor %}
+
+<!-- Success Message -->
+
+{% if messages %}
+    {% for msg in messages %}
+        <div class="col-12">
+            <span class = 'text-success'>{{ msg }}</span>
+        </div>
+    {% endfor %}
+{% endif %}
+                     
