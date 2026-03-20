@@ -2,7 +2,7 @@
 
 {% for field in form %}
     {% for error in field.errors %}
-        <div class="col-12">
+        <div class="alert alert-danger ">
             <span class = "fw-bold"> {{ field.label }}</span>
             {% for error in field.errors %}
                 <span class = 'text-danger'>{{ error }}</span>
@@ -14,7 +14,7 @@
 <!-- Non Field Erroes -->
 
     {% for error in form.non_field_errors %}
-        <div class="col-12">
+        <div class="alert alert-danger ">
             <span class = 'text-danger'>{{ error }}</span>
         </div>
     {% endfor %}
@@ -23,9 +23,15 @@
 
 {% if messages %}
     {% for msg in messages %}
-        <div class="col-12">
+    {% if msg.tags == 'success' %}
+        <div class="alert alert-success ">
             <span class = 'text-success'>{{ msg }}</span>
         </div>
+    {% else %}
+        <div class="alert alert-danger ">
+            <span class = 'text-danger'>{{ msg }}</span>
+        </div>
+    {% endif %}
     {% endfor %}
 {% endif %}
                      

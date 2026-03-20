@@ -14,12 +14,18 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
+#-----> Import neccessary modules 
 from django.contrib import admin
 from django.urls import path,include
+from django.conf.urls.static import static
+from django.conf import settings
 
+# handle custom 404 page
 handeler404 = 'myapp.views.custom_404_views'
 
+#----> Main domain url
 urlpatterns = [
     path('blog/', include('blog.urls')),
     path('blog/admin/', admin.site.urls),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)# static method to show the local image to deploy the server and display into the online
