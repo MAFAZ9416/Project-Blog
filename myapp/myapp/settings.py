@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-fhzf$g59or7q2tzrck2_jnd#gx4cy6zf*gdiazb6*_5von7cie
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'mafaz-blog.onrender.com'
+    'mafaz-blog.onrender.com',
+    '127.0.0.1',
 ]
 
 
