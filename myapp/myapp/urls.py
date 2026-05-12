@@ -26,6 +26,6 @@ handeler404 = 'myapp.views.custom_404_views'
 
 #----> Main domain url
 urlpatterns = [
-    path('blog/', include('blog.urls')),
-    path('blog/admin/', admin.site.urls),
+    path('', include('blog.urls')),
+    path('admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)# static method to show the local image to deploy the server and display into the online
