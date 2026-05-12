@@ -1,0 +1,456 @@
+[
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$eBnwxc6nS1amwyEMair9L4$/DQJDYiBfLNU3i1PSl3iacHQGMHwg+uaXwTL8tCTBDI=",
+    "last_login": "2026-05-12T13:50:50.425Z",
+    "is_superuser": true,
+    "username": "root",
+    "first_name": "",
+    "last_name": "",
+    "email": "mafaz9416@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-04T07:36:33Z",
+    "groups": [
+      2,
+      3,
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$VnEk2P7PkTjP353ujCMdId$gZ39hg88zHKgMiohiNPloLvLHabsuKoum002RFqm0Zs=",
+    "last_login": "2026-03-20T10:33:05.455Z",
+    "is_superuser": false,
+    "username": "mafaz",
+    "first_name": "",
+    "last_name": "",
+    "email": "mafaz9416@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-16T06:20:36Z",
+    "groups": [
+      2,
+      3,
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$0VywPUZ58l6nmlqgOjPVgP$hMnckke/ig8JSvBlqmB9mkh9BNe9orjn/GT+CMQEY2I=",
+    "last_login": "2026-03-20T06:48:35.101Z",
+    "is_superuser": false,
+    "username": "sample",
+    "first_name": "",
+    "last_name": "",
+    "email": "sample@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-20T05:13:02Z",
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 20,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$2FtBHQ7MsMy5Ak2RDWX6S1$dKFU23AW7lngm0qp+h9jlRD3mAZeQVTlN76WGnRsNGc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sampl2",
+    "first_name": "",
+    "last_name": "",
+    "email": "sample2@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-20T06:43:57.402Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 21,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$AeUPgAqx8bKR0nqsIieGDP$Z0x3c/Kop8kRIt69xmmMXjtOoCUvb31mIzecR7EFt8I=",
+    "last_login": "2026-05-12T13:43:07.282Z",
+    "is_superuser": false,
+    "username": "root1",
+    "first_name": "",
+    "last_name": "",
+    "email": "root1@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-12T13:42:53.690Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "blog.categorys",
+  "pk": 1,
+  "fields": {
+    "name": "Sports"
+  }
+},
+{
+  "model": "blog.categorys",
+  "pk": 2,
+  "fields": {
+    "name": "Technology"
+  }
+},
+{
+  "model": "blog.categorys",
+  "pk": 3,
+  "fields": {
+    "name": "Science"
+  }
+},
+{
+  "model": "blog.categorys",
+  "pk": 4,
+  "fields": {
+    "name": "Art"
+  }
+},
+{
+  "model": "blog.categorys",
+  "pk": 5,
+  "fields": {
+    "name": "Food"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 22,
+  "fields": {
+    "title": "The Future of AI",
+    "content": "Exploring the future of artificial intelligence and its impact on society. AI is poised to revolutionize various industries, from healthcare to finance, with its ability to analyze vast amounts of data and make predictions.",
+    "img_url": "https://picsum.photos/id/1/800/400",
+    "created_at": "2026-01-15T07:42:44.768Z",
+    "slug": "the-future-of-ai",
+    "category": 2,
+    "user": 18,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 23,
+  "fields": {
+    "title": "Climate Change Solutions",
+    "content": "Discovering solutions to combat climate change and protect the environment. Through innovative technologies and sustainable practices, we can mitigate the effects of global warming and preserve our planet for future generations.",
+    "img_url": "https://picsum.photos/id/2/800/400",
+    "created_at": "2026-01-15T07:42:44.782Z",
+    "slug": "climate-change-solutions",
+    "category": 1,
+    "user": 18,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 24,
+  "fields": {
+    "title": "Remote Work Trends",
+    "content": "Analyzing trends and challenges in remote work environments. The shift to remote work has reshaped the way we work and collaborate, presenting both opportunities and challenges for organizations and employees.",
+    "img_url": "https://picsum.photos/id/3/800/400",
+    "created_at": "2026-01-15T07:42:44.787Z",
+    "slug": "remote-work-trends",
+    "category": 3,
+    "user": 18,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 25,
+  "fields": {
+    "title": "Quantum Computing Explained",
+    "content": "An introduction to the principles and applications of quantum computing. Quantum computing holds the promise of solving complex problems that are intractable for classical computers, ushering in a new era of computation.",
+    "img_url": "https://picsum.photos/id/4/800/400",
+    "created_at": "2026-01-15T07:42:44.793Z",
+    "slug": "quantum-computing-explained",
+    "category": 1,
+    "user": 2,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 26,
+  "fields": {
+    "title": "Renewable Energy Innovations",
+    "content": "Investigating the latest innovations in renewable energy sources. From solar and wind power to biofuels and hydrogen, renewable energy technologies offer sustainable alternatives to fossil fuels and reduce greenhouse gas emissions.",
+    "img_url": "https://picsum.photos/id/5/800/400",
+    "created_at": "2026-01-15T07:42:44.797Z",
+    "slug": "renewable-energy-innovations",
+    "category": 3,
+    "user": 2,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 27,
+  "fields": {
+    "title": "Deep Learning Demystified",
+    "content": "Understanding the fundamentals of deep learning and neural networks. Deep learning algorithms mimic the human brain's neural networks to analyze complex data and make intelligent decisions, driving advancements in artificial intelligence.",
+    "img_url": "https://picsum.photos/id/6/800/400",
+    "created_at": "2026-01-15T07:42:44.800Z",
+    "slug": "deep-learning-demystified",
+    "category": 4,
+    "user": 2,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 28,
+  "fields": {
+    "title": "Post-Pandemic Economic Outlook",
+    "content": "Examining the economic landscape in the aftermath of the COVID-19 pandemic. The pandemic has reshaped global economies, accelerating digital transformation and highlighting the importance of resilience and adaptability.",
+    "img_url": "https://picsum.photos/id/7/800/400",
+    "created_at": "2026-01-15T07:42:44.803Z",
+    "slug": "post-pandemic-economic-outlook",
+    "category": 2,
+    "user": 19,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 29,
+  "fields": {
+    "title": "Blockchain in Finance",
+    "content": "Exploring the potential of blockchain technology in the financial sector. Blockchain technology has the potential to revolutionize financial transactions, offering transparency, security, and efficiency in peer-to-peer transactions.",
+    "img_url": "https://picsum.photos/id/8/800/400",
+    "created_at": "2026-01-15T07:42:44.807Z",
+    "slug": "blockchain-in-finance",
+    "category": 2,
+    "user": 19,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 30,
+  "fields": {
+    "title": "Storytelling in Marketing",
+    "content": "Harnessing the power of storytelling to create compelling marketing campaigns. Storytelling is a powerful tool for brands to connect with their audience emotionally and convey their values and messages effectively.",
+    "img_url": "https://picsum.photos/id/9/800/400",
+    "created_at": "2026-01-15T07:42:44.811Z",
+    "slug": "storytelling-in-marketing",
+    "category": 3,
+    "user": 19,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 31,
+  "fields": {
+    "title": "Medical Technology Advances",
+    "content": "Highlighting breakthroughs and advancements in medical technology. From precision medicine to telemedicine, medical technology innovations are transforming healthcare delivery and improving patient outcomes worldwide.",
+    "img_url": "https://picsum.photos/id/10/800/400",
+    "created_at": "2026-01-15T07:42:44.816Z",
+    "slug": "medical-technology-advances",
+    "category": 4,
+    "user": 19,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 32,
+  "fields": {
+    "title": "Space Exploration Challenges",
+    "content": "Addressing the obstacles and opportunities in space exploration. With renewed interest in space exploration, we are on the brink of new discoveries and advancements that will expand our understanding of the universe.",
+    "img_url": "https://picsum.photos/id/11/800/400",
+    "created_at": "2026-01-15T07:42:44.819Z",
+    "slug": "space-exploration-challenges",
+    "category": 1,
+    "user": 2,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 33,
+  "fields": {
+    "title": "Psychology of Decision Making",
+    "content": "Exploring the psychological factors influencing decision-making processes. Understanding human behavior and cognitive biases can help individuals and organizations make better decisions and achieve their goals.",
+    "img_url": "https://picsum.photos/id/12/800/400",
+    "created_at": "2026-01-15T07:42:44.826Z",
+    "slug": "psychology-of-decision-making",
+    "category": 1,
+    "user": 2,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 34,
+  "fields": {
+    "title": "Evolution of Social Media",
+    "content": "Tracing the evolution of social media platforms and their impact on society. Social media has reshaped how we communicate, connect, and consume information, influencing everything from politics to culture.",
+    "img_url": "https://picsum.photos/id/13/800/400",
+    "created_at": "2026-01-15T07:42:44.830Z",
+    "slug": "evolution-of-social-media",
+    "category": 1,
+    "user": 20,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 35,
+  "fields": {
+    "title": "The Art of Cooking",
+    "content": "Celebrating the art of cooking and culinary creativity. Cooking is not just about nourishment but also about creativity, culture, and community, bringing people together through shared meals and experiences.",
+    "img_url": "https://picsum.photos/id/14/800/400",
+    "created_at": "2026-01-15T07:42:44.834Z",
+    "slug": "the-art-of-cooking",
+    "category": 4,
+    "user": 20,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 36,
+  "fields": {
+    "title": "Cultural Diversity in Society",
+    "content": "Promoting inclusivity and embracing diversity in modern communities. Embracing diversity fosters innovation, creativity, and mutual respect, creating vibrant and inclusive communities where everyone feels valued and empowered.",
+    "img_url": "https://picsum.photos/id/15/800/400",
+    "created_at": "2026-01-15T07:42:44.839Z",
+    "slug": "cultural-diversity-in-society",
+    "category": 5,
+    "user": 20,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 37,
+  "fields": {
+    "title": "Sustainable Development Investments",
+    "content": "Investigating sustainable development initiatives and their impact on the future. Sustainable development seeks to meet the needs of the present without compromising the ability of future generations to meet their own needs, ensuring a balance between economic growth, environmental protection, and social equity.",
+    "img_url": "https://picsum.photos/id/16/800/400",
+    "created_at": "2026-01-15T07:42:44.842Z",
+    "slug": "sustainable-development-investments",
+    "category": 4,
+    "user": 20,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 38,
+  "fields": {
+    "title": "Globalization Impact",
+    "content": "Examining the effects of globalization on local and global economies. Globalization has interconnected economies and societies, facilitating trade, cultural exchange, and technological advancements while also posing challenges such as income inequality and environmental degradation.",
+    "img_url": "https://picsum.photos/id/17/800/400",
+    "created_at": "2026-01-15T07:42:44.846Z",
+    "slug": "globalization-impact",
+    "category": 5,
+    "user": 19,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 39,
+  "fields": {
+    "title": "Power of Mindfulness",
+    "content": "Embracing mindfulness practices for enhanced well-being and productivity. Mindfulness practices, such as meditation and yoga, promote mental clarity, emotional resilience, and overall well-being, enabling individuals to thrive in today's fast-paced world.",
+    "img_url": "https://picsum.photos/id/18/800/400",
+    "created_at": "2026-01-15T07:42:44.854Z",
+    "slug": "power-of-mindfulness",
+    "category": 2,
+    "user": 2,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 40,
+  "fields": {
+    "title": "Online Learning Revolution",
+    "content": "Revolutionizing education through online learning platforms and resources. Online learning platforms offer flexible and accessible education opportunities, democratizing access to knowledge and empowering learners to pursue their educational goals.",
+    "img_url": "https://picsum.photos/id/19/800/400",
+    "created_at": "2026-01-15T07:42:44.859Z",
+    "slug": "online-learning-revolution",
+    "category": 2,
+    "user": 2,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 41,
+  "fields": {
+    "title": "Art and Technology Fusion",
+    "content": "Exploring the intersection of art, design, and technology in the digital age. The convergence of art, design, and technology has led to innovative creations and experiences, blurring the boundaries between physical and digital worlds.",
+    "img_url": "https://picsum.photos/id/20/800/400",
+    "created_at": "2026-01-15T07:42:44.863Z",
+    "slug": "art-and-technology-fusion",
+    "category": 5,
+    "user": 19,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 46,
+  "fields": {
+    "title": "sample data",
+    "content": "sample data contetn",
+    "img_url": "posts/images/1_J5Tesfi.jpg",
+    "created_at": "2026-03-19T07:24:56.484Z",
+    "slug": "sample-data",
+    "category": 1,
+    "user": 20,
+    "is_published": true
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 50,
+  "fields": {
+    "title": "mafaz",
+    "content": "mafaz sample",
+    "img_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg?_=20200913095930",
+    "created_at": "2026-03-19T12:19:25.322Z",
+    "slug": "mafaz",
+    "category": 1,
+    "user": 18,
+    "is_published": false
+  }
+},
+{
+  "model": "blog.about",
+  "pk": 2,
+  "fields": {
+    "content": "Welcome to Mafaz website! We are dedicated to providing high-quality products and excellent customer service. Our team consists of experienced professionals who are passionate about delivering the best solutions to our customers. With a focus on innovation and integrity, we strive to exceed expectations in every aspect of our business. Our company was founded on the principles of honesty, reliability, and transparency. We believe in building strong relationships with our customers and partners based on trust and mutual respect. By listening to our customers' needs and adapting to changing market trends, we continue to evolve and improve our offerings. At our core, we are driven by a commitment to excellence and continuous improvement. We invest in research and development to stay ahead of the curve and bring cutting-edge solutions to our customers. Our dedication to quality ensures that every product we deliver meets the highest standards of performance and reliability. We are proud of our track record of success and the positive impact we have made in the industry. But we are not content to rest on our laurels. We are always looking for new opportunities to grow and expand our reach, while staying true to our values and vision. Thank you for choosing us as your trusted partner. We look forward to serving you and exceeding your expectations for many years to come."
+  }
+}
+]
